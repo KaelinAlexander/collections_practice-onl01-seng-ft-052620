@@ -59,5 +59,6 @@ def add_s(array)
 		  word.insert[-1, "s"]
 			with_s << word
 		end
+		end
 	with_s
 end
