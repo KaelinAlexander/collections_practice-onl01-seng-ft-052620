@@ -56,7 +56,7 @@ def add_s(array)
 		if array[2]
 		  with_s << word
 		else
-		  word.insert[-1, "s"]
+		  word << "s"
 			with_s << word
 		end
 		end
