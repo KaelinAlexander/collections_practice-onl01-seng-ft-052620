@@ -60,5 +60,5 @@ def add_s(array)
 			with_s << words
 		end
 		end
-	with_s
+	array
 end
