@@ -52,8 +52,8 @@ end
 
 def add_s(array)
 	with_s=[]
-	array.each_with_index.collect{|word, index|}
-		if index != 1
+	array.each do |word|
+		if array[index] != 1
 			word.insert[-1, "s"]
 		  with_s << word
 		else
