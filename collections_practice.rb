@@ -47,8 +47,7 @@ end
 
 def sum_array(y)
 sum=0
-	array.each do |integer|with_s
-
+	array.each do |integer|
 		sum+= integer
 	end
 sum
