@@ -56,7 +56,7 @@ def add_s(array)
 		if array[1]
 		  with_s << word
 		else
-		  words=word << "s"
+		  word << "s"
 			with_s << words
 		end
 		end
