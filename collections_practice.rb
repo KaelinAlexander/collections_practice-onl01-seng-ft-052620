@@ -53,16 +53,3 @@ sum=0
 	end
 sum
 end
-
-def add_s(array)
-	with_s=[]
-	array.each_with_index.collect{|word, index|}
-		if index != 1
-			word.insert[-1, "s"]
-		with_s << word
-		else
-			with_s << word
-		end
-	end
-	with_s
-end
