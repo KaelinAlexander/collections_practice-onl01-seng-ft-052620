@@ -13,8 +13,8 @@ end
 def swap_elements(array)
   swap_1=array[1]
   swap_2=array[2]
-  swap_1=array[2]=swap_1
-  swap_2=array[1]
+  array[2]=swap_1
+  array[1]=swap_2
   array
 end
 
