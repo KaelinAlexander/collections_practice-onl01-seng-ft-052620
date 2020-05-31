@@ -25,10 +25,10 @@ end
 
 def kesha_maker(array)
   kesha_array = []
-	array.each do |word|
-		kesha_array << word[2]="$"
+	array.map do |word|
+		word[2]="$"
 	end
-	kesha_array
+	array
 	puts kesha_array
 end
 
