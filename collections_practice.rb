@@ -36,6 +36,7 @@ def find_a(array)
 		if word.start_with?("a")
 			with_a << word
 		end
+		end
 		with_a
 end
 
@@ -51,4 +52,17 @@ sum=0
 		sum+= integer
 	end
 sum
+end
+
+def add_s(array)
+	with_s=[]
+	array.each_with_index.collect{|word, index|}
+		if index != 1
+			word.insert[-1, "s"]
+		with_s << word
+		else
+			with_s << word
+		end
+	end
+	with_s
 end
