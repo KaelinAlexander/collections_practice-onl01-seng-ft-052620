@@ -52,7 +52,7 @@ end
 
 def add_s(array)
 	with_s=[]
-	array.map do |word|
+	array.each_with_index.collect 
 		if array[1]
 		  word
 		else
