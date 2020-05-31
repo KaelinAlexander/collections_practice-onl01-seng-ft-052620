@@ -25,7 +25,7 @@ end
 
 def kesha_maker(array)
 	array.each do |word|
-		keshaed=word[2].sub([2],"$")
+		keshaed=word[2].sub("$")
 		kesha_array << keshaed
 	end
 	kesha_array
